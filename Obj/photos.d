@@ -1,0 +1,12 @@
+.\obj\photos.o: photos.c
+.\obj\photos.o: LPC17xx.h
+.\obj\photos.o: core_cm3.h
+.\obj\photos.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\photos.o: system_LPC17xx.h
+.\obj\photos.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\photos.o: GLCD.h
+.\obj\photos.o: LED.h
+.\obj\photos.o: KBD.h
+.\obj\photos.o: greninja.c
+.\obj\photos.o: charizard.c
+.\obj\photos.o: torterra.c

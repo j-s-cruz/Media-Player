@@ -1,0 +1,17 @@
+.\obj\game.o: game.c
+.\obj\game.o: LPC17xx.h
+.\obj\game.o: core_cm3.h
+.\obj\game.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\game.o: system_LPC17xx.h
+.\obj\game.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\game.o: GLCD.h
+.\obj\game.o: LED.h
+.\obj\game.o: KBD.h
+.\obj\game.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\game.o: game.h
+.\obj\game.o: empty.c
+.\obj\game.o: player.c
+.\obj\game.o: boulder.c
+.\obj\game.o: rock.c
+.\obj\game.o: hole.c
+.\obj\game.o: rock_in.c

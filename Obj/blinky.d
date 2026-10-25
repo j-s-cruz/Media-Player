@@ -1,0 +1,9 @@
+.\obj\blinky.o: Blinky.c
+.\obj\blinky.o: LPC17xx.h
+.\obj\blinky.o: core_cm3.h
+.\obj\blinky.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\blinky.o: system_LPC17xx.h
+.\obj\blinky.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\blinky.o: GLCD.h
+.\obj\blinky.o: LED.h
+.\obj\blinky.o: KBD.h

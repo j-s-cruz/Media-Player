@@ -1,0 +1,140 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ECBME Dept. Ryerson University Flex license: MDK Professional 5.31 (Flex): 200 user(s) (mdk_pro) Operation stops: 4 Jul 2027
+ 
+Tool Versions:
+Toolchain:       MDK Professional 5.31 (Flex): 200 user(s)  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      UL2CM3.DLL V1.163.4.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+S:\COE718\COE718_Project\usbaudio.uvprojx
+Project File Date:  11/14/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Flash'
+compiling usbuser.c...
+compiling usbcore.c...
+compiling usbdesc.c...
+compiling usbhw.c...
+compiling adcuser.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling IRQ.c...
+compiling LED.c...
+compiling KBD.c...
+KBD.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+KBD.c(48): warning:  #1-D: last line of file ends without a newline
+  }
+KBD.c: 2 warnings, 0 errors
+compiling usbdmain.c...
+KBD.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+usbdmain.c(131): warning:  #223-D: function "photos" declared implicitly
+                                                photos();
+usbdmain.c(135): warning:  #223-D: function "MP3" declared implicitly
+                                                MP3();
+usbdmain.c(139): warning:  #223-D: function "game" declared implicitly
+                                                game();
+usbdmain.c(160): warning:  #128-D: loop is not reachable
+    while( 1 ); 
+usbdmain.c: 5 warnings, 0 errors
+compiling MP3.c...
+KBD.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+MP3.c: 1 warning, 0 errors
+compiling game.c...
+KBD.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+game.c(117): warning:  #111-D: statement is unreachable
+                        break;
+game.c(134): warning:  #111-D: statement is unreachable
+                return 0;
+game.c: 3 warnings, 0 errors
+compiling photos.c...
+KBD.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+photos.c: 1 warning, 0 errors
+compiling system_LPC17xx.c...
+compiling core_cm3.c...
+assembling startup_LPC17xx.s...
+compiling boulder.c...
+boulder.c(7): warning:  #177-D: variable "BOULDER_pixel_data"  was declared but never referenced
+  static const unsigned char BOULDER_pixel_data[20 * 20 * 3 + 1] =
+boulder.c: 1 warning, 0 errors
+compiling rock.c...
+rock.c(7): warning:  #177-D: variable "ROCK_pixel_data"  was declared but never referenced
+  static const unsigned char ROCK_pixel_data[20 * 20 * 4 + 1] =
+rock.c: 1 warning, 0 errors
+compiling hole.c...
+hole.c(7): warning:  #177-D: variable "HOLE_pixel_data"  was declared but never referenced
+  static const unsigned char HOLE_pixel_data[20 * 20 * 3 + 1] =
+hole.c: 1 warning, 0 errors
+compiling rock_in.c...
+rock_in.c(7): warning:  #177-D: variable "ROCK_IN_pixel_data"  was declared but never referenced
+  static const unsigned char ROCK_IN_pixel_data[20 * 20 * 4 + 1] =
+rock_in.c: 1 warning, 0 errors
+compiling player.c...
+player.c(7): warning:  #177-D: variable "PLAYER_pixel_data"  was declared but never referenced
+  static const unsigned char PLAYER_pixel_data[20 * 20 * 4 + 1] =
+player.c: 1 warning, 0 errors
+compiling empty.c...
+empty.c(7): warning:  #177-D: variable "EMPTY_pixel_data"  was declared but never referenced
+  static const unsigned char EMPTY_pixel_data[20 * 20 * 3 + 1] =
+empty.c: 1 warning, 0 errors
+compiling greninja.c...
+greninja.c(7): warning:  #177-D: variable "GRENINJA_pixel_data"  was declared but never referenced
+  static const unsigned char GRENINJA_pixel_data[120 * 120 * 3 + 1] =
+greninja.c: 1 warning, 0 errors
+compiling charizard.c...
+charizard.c(7): warning:  #177-D: variable "CHARIZARD_pixel_data"  was declared but never referenced
+  static const unsigned char CHARIZARD_pixel_data[120 * 120 * 4 + 1] =
+charizard.c: 1 warning, 0 errors
+compiling torterra.c...
+torterra.c(7): warning:  #177-D: variable "TORTERRA_pixel_data"  was declared but never referenced
+  static const unsigned char TORTERRA_pixel_data[120 * 120 * 4 + 1] =
+torterra.c: 1 warning, 0 errors
+linking...
+Program Size: Code=13636 RO-data=173688 RW-data=1676 ZI-data=2116  
+FromELF: creating hex file...
+".\Obj\usbaudio.axf" - 0 Error(s), 21 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.6.0.pack
+                Keil.LPC1700_DFP.2.6.0
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Flash
+  C:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:08
+</pre>
+</body>
+</html>

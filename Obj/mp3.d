@@ -1,0 +1,13 @@
+.\obj\mp3.o: MP3.c
+.\obj\mp3.o: LPC17xx.h
+.\obj\mp3.o: core_cm3.h
+.\obj\mp3.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\mp3.o: system_LPC17xx.h
+.\obj\mp3.o: type.h
+.\obj\mp3.o: GLCD.h
+.\obj\mp3.o: KBD.h
+.\obj\mp3.o: usb.h
+.\obj\mp3.o: usbcfg.h
+.\obj\mp3.o: usbhw.h
+.\obj\mp3.o: usbcore.h
+.\obj\mp3.o: usbaudio.h
